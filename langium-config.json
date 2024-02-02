@@ -1,0 +1,12 @@
+{
+    "projectName": "DeclaredTypes",
+    "languages": [{
+        "id": "declared-types",
+        "grammar": "src/language/declared-types.langium",
+        "fileExtensions": [".dcl"],
+        "textMate": {
+            "out": "syntaxes/declared-types.tmLanguage.json"
+        }
+    }],
+    "out": "src/language/generated"
+}
